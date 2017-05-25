@@ -3,6 +3,8 @@ UltrasonicWaveDemo
 
 This Demo is using [[QuietModemKit]](https://github.com/quiet/QuietModemKit) framework.
 
+<img src="https://github.com/JosephNK/UltrasonicWaveDemo/blob/master/Screenshot/screenshot_02.png" width="300" alt="Screenshot">
+
 Setup & Install
 --------------
 
