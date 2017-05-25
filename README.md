@@ -18,6 +18,7 @@ $ brew install carthage
 #### 2. Liquid DSP install [liquid-dsp](https://github.com/quiet/liquid-dsp/tree/devel)
 
 ```
+$ brew install cmake
 $ brew install automake 
 $ git clone https://github.com/quiet/liquid-dsp.git -b devel --single-branch
 $ ./bootstrap.sh     
