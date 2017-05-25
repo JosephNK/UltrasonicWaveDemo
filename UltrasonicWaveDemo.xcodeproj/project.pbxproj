@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0513C81ED71AF700EAAEAB /* QuietModemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0513C71ED71AF700EAAEAB /* QuietModemKit.framework */; };
+		6F4571F71ED6F4DE00A10F9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4571F61ED6F4DE00A10F9E /* main.m */; };
+		6F4571FA1ED6F4DE00A10F9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4571F91ED6F4DE00A10F9E /* AppDelegate.m */; };
+		6F4571FD1ED6F4DE00A10F9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4571FC1ED6F4DE00A10F9E /* ViewController.m */; };
+		6F4572001ED6F4DE00A10F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4571FE1ED6F4DE00A10F9E /* Main.storyboard */; };
+		6F4572021ED6F4DE00A10F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4572011ED6F4DE00A10F9E /* Assets.xcassets */; };
+		6F4572051ED6F4DE00A10F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4572031ED6F4DE00A10F9E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F0513C71ED71AF700EAAEAB /* QuietModemKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuietModemKit.framework; path = Carthage/Build/iOS/QuietModemKit.framework; sourceTree = "<group>"; };
+		6F4571F21ED6F4DE00A10F9E /* UltrasonicWaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltrasonicWaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4571F61ED6F4DE00A10F9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F4571F81ED6F4DE00A10F9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F4571F91ED6F4DE00A10F9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F4571FB1ED6F4DE00A10F9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F4571FC1ED6F4DE00A10F9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F4571FF1ED6F4DE00A10F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F4572011ED6F4DE00A10F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F4572041ED6F4DE00A10F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F4572061ED6F4DE00A10F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F4571EF1ED6F4DE00A10F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0513C81ED71AF700EAAEAB /* QuietModemKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0513C61ED71AF700EAAEAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0513C71ED71AF700EAAEAB /* QuietModemKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F4571E91ED6F4DE00A10F9E = {
+			isa = PBXGroup;
+			children = (
+				6F4571F41ED6F4DE00A10F9E /* UltrasonicWaveDemo */,
+				6F4571F31ED6F4DE00A10F9E /* Products */,
+				6F0513C61ED71AF700EAAEAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F4571F31ED6F4DE00A10F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F4571F21ED6F4DE00A10F9E /* UltrasonicWaveDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F4571F41ED6F4DE00A10F9E /* UltrasonicWaveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6F4571F81ED6F4DE00A10F9E /* AppDelegate.h */,
+				6F4571F91ED6F4DE00A10F9E /* AppDelegate.m */,
+				6F4571FB1ED6F4DE00A10F9E /* ViewController.h */,
+				6F4571FC1ED6F4DE00A10F9E /* ViewController.m */,
+				6F4571FE1ED6F4DE00A10F9E /* Main.storyboard */,
+				6F4572011ED6F4DE00A10F9E /* Assets.xcassets */,
+				6F4572031ED6F4DE00A10F9E /* LaunchScreen.storyboard */,
+				6F4572061ED6F4DE00A10F9E /* Info.plist */,
+				6F4571F51ED6F4DE00A10F9E /* Supporting Files */,
+			);
+			path = UltrasonicWaveDemo;
+			sourceTree = "<group>";
+		};
+		6F4571F51ED6F4DE00A10F9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F4571F61ED6F4DE00A10F9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F4571F11ED6F4DE00A10F9E /* UltrasonicWaveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4572091ED6F4DE00A10F9E /* Build configuration list for PBXNativeTarget "UltrasonicWaveDemo" */;
+			buildPhases = (
+				6F4571EE1ED6F4DE00A10F9E /* Sources */,
+				6F4571EF1ED6F4DE00A10F9E /* Frameworks */,
+				6F4571F01ED6F4DE00A10F9E /* Resources */,
+				6F0513C51ED7155C00EAAEAB /* Carthage Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltrasonicWaveDemo;
+			productName = UltrasonicWaveDemo;
+			productReference = 6F4571F21ED6F4DE00A10F9E /* UltrasonicWaveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F4571EA1ED6F4DE00A10F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JosephNK;
+				TargetAttributes = {
+					6F4571F11ED6F4DE00A10F9E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EG55T24G59;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6F4571ED1ED6F4DE00A10F9E /* Build configuration list for PBXProject "UltrasonicWaveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F4571E91ED6F4DE00A10F9E;
+			productRefGroup = 6F4571F31ED6F4DE00A10F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F4571F11ED6F4DE00A10F9E /* UltrasonicWaveDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F4571F01ED6F4DE00A10F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4572051ED6F4DE00A10F9E /* LaunchScreen.storyboard in Resources */,
+				6F4572021ED6F4DE00A10F9E /* Assets.xcassets in Resources */,
+				6F4572001ED6F4DE00A10F9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F0513C51ED7155C00EAAEAB /* Carthage Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/QuietModemKit.framework",
+			);
+			name = "Carthage Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F4571EE1ED6F4DE00A10F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4571FD1ED6F4DE00A10F9E /* ViewController.m in Sources */,
+				6F4571FA1ED6F4DE00A10F9E /* AppDelegate.m in Sources */,
+				6F4571F71ED6F4DE00A10F9E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F4571FE1ED6F4DE00A10F9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4571FF1ED6F4DE00A10F9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F4572031ED6F4DE00A10F9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4572041ED6F4DE00A10F9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F4572071ED6F4DE00A10F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F4572081ED6F4DE00A10F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F45720A1ED6F4DE00A10F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EG55T24G59;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = UltrasonicWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephnk.UltrasonicWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F45720B1ED6F4DE00A10F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EG55T24G59;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = UltrasonicWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephnk.UltrasonicWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F4571ED1ED6F4DE00A10F9E /* Build configuration list for PBXProject "UltrasonicWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4572071ED6F4DE00A10F9E /* Debug */,
+				6F4572081ED6F4DE00A10F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4572091ED6F4DE00A10F9E /* Build configuration list for PBXNativeTarget "UltrasonicWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F45720A1ED6F4DE00A10F9E /* Debug */,
+				6F45720B1ED6F4DE00A10F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F4571EA1ED6F4DE00A10F9E /* Project object */;
+}

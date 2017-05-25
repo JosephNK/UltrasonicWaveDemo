@@ -1,0 +1,9 @@
+{
+  "commitish" : "v0.1.3",
+  "iOS" : [
+    {
+      "hash" : "1c75e3f055f2766ecb977fcff9e27691e82a9df4df84fe7778944069dd1cfc66",
+      "name" : "QuietModemKit"
+    }
+  ]
+}
