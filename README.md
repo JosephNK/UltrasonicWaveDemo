@@ -102,6 +102,7 @@ drwxr-xr-x   3 root  admin      102  5 25 21:39 liquid
 
 1) Xcode Create Project  
 2) Project Close
+3) Install (by carthage)
 
 ```
 $ brew install cmake
@@ -137,4 +138,4 @@ cp: /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietM
 ** BUILD FAILED **
 ```
 
-Do not copy files directly.
+ Do not copy files directly.
