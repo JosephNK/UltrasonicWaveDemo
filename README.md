@@ -5,7 +5,7 @@ This Demo is using [[QuietModemKit]](https://github.com/quiet/QuietModemKit) fra
 
 <img src="https://github.com/JosephNK/UltrasonicWaveDemo/blob/master/Screenshot/screenshot_02.png" width="300" alt="Screenshot">
 
-QuietModemKit Setup & Install From New Project
+QuietModemKit Setup & Install
 --------------
 
 #### 1. Carthage install
