@@ -120,7 +120,7 @@ $ carthage update --platform iOS --verbose
 ** BUILD SUCCEEDED **
 ```
 
-Solution for Build Failed
+Build failed Caution
 
 ```
 *** Fetching QuietModemKit
@@ -131,23 +131,11 @@ Solution for Build Failed
 
 Build Failed
 
-* Build Failed Message
 cp: /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/lib/libliquid.a: No such file or directory
-=> solution
-$ cp /usr/local/lib/libliquid.a /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/lib
-
-* Build Failed Message
 cp: /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/lib/libquiet.a: No such file or directory
-=> solution
-$ cp /usr/local/lib/libquiet.a /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/lib
-
-* Build Failed Message
 cp: /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/include/liquid: No such file or directory
-=> solution
-$ cp -r /usr/local/include/liquid /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/include
-
-* Build Failed Message
 cp: /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/include/quiet.h: No such file or directory
-=> solution
-$ cp /usr/local/include/quiet.h /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/include
+
 ```
+
+Do not copy files directly.
