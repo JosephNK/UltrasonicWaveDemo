@@ -129,13 +129,12 @@ Build failed Caution
 ... ... ... 
 ... ...
 
-Build Failed
-
 cp: /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/lib/libliquid.a: No such file or directory
 cp: /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/lib/libquiet.a: No such file or directory
 cp: /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/include/liquid: No such file or directory
 cp: /Users/<UserName>/Library/Caches/org.carthage.CarthageKit/DerivedData/QuietModemKit/v0.1.3/Build/Products/Release-iphoneos/sysroot/usr/include/quiet.h: No such file or directory
 
+** BUILD FAILED **
 ```
 
 Do not copy files directly.
